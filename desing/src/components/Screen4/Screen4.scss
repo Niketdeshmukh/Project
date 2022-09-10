@@ -1,0 +1,40 @@
+.container__main {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.content__main {
+    display: flex;
+    flex-direction: row;
+    // background: url(../../assets/images/screen4.png) center no-repeat !important;
+
+    .content__first {
+        margin: 12rem;
+
+        h2 {
+            width: 420px;
+            font-family: 'Acumin Pro Condensed';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 68px;
+            letter-spacing: -3px;
+            color: #EBF243;
+        }
+
+        p {
+            font-family: 'Sora';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 16px;
+            letter-spacing: 0.1em;
+
+            color: #FFFFFF;
+        }
+        
+    }img{
+            margin-top: 64px;
+            width: 23rem;
+            height: 26rem;
+        }
+}

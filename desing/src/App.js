@@ -8,6 +8,7 @@ import FanClub from "./components/Fanclub/FanClub";
 import Purchase from "./components/Purchase/Purchase";
 import PayIntPanel from "./components/PayIntPanel/PayIntPanel";
 import Screen3 from "./components/Screen3/Screen3";
+import Screen4 from "./components/Screen4/Screen4";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/about" element={<About />}></Route>
         <Route path="/connect-wallet" element={<HeroConnectWallet />}></Route>
         <Route path="/screen3" element={<Screen3 />}></Route>
+        <Route path="/screen4" element={<Screen4 />}></Route>
         <Route
           path="/payment-integration"
           element={<PaymentIntegration />}
