@@ -12,7 +12,6 @@ const Screen4 = () => {
     <>
       <div className="container__main">
         <Header />
-        
         <div className="content__main">
           <div className="content__first">
             <h2>Fanfury’s $FURY Kits</h2>
@@ -21,8 +20,7 @@ const Screen4 = () => {
           <img src={image1} alt="" srcset="" />
         </div>
         <div className="container__box">
-         
-    <h3>
+          <h3>
             {" "}
             <span>Basic</span> &nbsp; $FURY Kit
           </h3>
@@ -38,9 +36,7 @@ const Screen4 = () => {
               the “question mark” icon for details on the exclusive bonus
               available on this package.
             </p>
-            <div className="elipse">
-                ?
-            </div>
+            <div className="elipse">?</div>
           </div>
         </div>
         <div className="container__box">
@@ -59,9 +55,7 @@ const Screen4 = () => {
               Claim the Pro Kit at 5% discount. Please click the “question mark”
               icon for details on the exclusive bonus available on this package
             </p>
-            <div className="elipse">
-                ?
-            </div>
+            <div className="elipse">?</div>
           </div>
         </div>
         <div className="container__box">
@@ -81,9 +75,7 @@ const Screen4 = () => {
               mark” icon for details on the exclusive bonus available on this
               package.{" "}
             </p>
-            <div className="elipse">
-                ?
-            </div>
+            <div className="elipse">?</div>
           </div>
         </div>
         <div className="container__box">
@@ -91,7 +83,7 @@ const Screen4 = () => {
             {" "}
             <span>Legendary </span> &nbsp; $FURY Kit
           </h3>
-          <div className="content__box" style={{marginBottom:"24rem"}}>
+          <div className="content__box" style={{ marginBottom: "24rem" }}>
             <img src={image5} alt="" srcset="" />
             <div className="content__a">
               <h5>Legendary $FURY Kit </h5>
@@ -103,9 +95,7 @@ const Screen4 = () => {
               “question mark” icon for details on the exclusive bonus available
               on this package.{" "}
             </p>
-            <div className="elipse">
-                ?
-            </div>
+            <div className="elipse">?</div>
           </div>
         </div>
       </div>
