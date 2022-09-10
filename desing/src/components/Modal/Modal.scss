@@ -1,0 +1,83 @@
+body.active-modal {
+    overflow-y: hidden;
+}
+
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+}
+
+.moodal,
+.overlay {
+    width: 30vw;
+    height: 30vh;
+    top: 10rem;
+    left: 10rem;
+    /* right: 0;
+    bottom: 0; */
+    position: fixed;
+}
+
+/* .overlay {
+    background: rgba(49,49,49,0.8);
+} */
+.modal-content {
+    position: relative;
+    top: 93%;
+    left: 125%;
+    display: flex;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: linear-gradient(180deg, #7601F4 -143.35%, #10005C 100%);
+    box-shadow: 0px 4px 50px rgba(169, 59, 255, 0.8);
+    border-radius: 12px;
+    padding: 86px 66px;
+    border-radius: 3px;
+    min-height: 400px;
+    min-width: 500px;
+}
+
+.model-content {
+    h4 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 34px 0px 8px 0px !important;
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 38px;
+        line-height: 46px;
+        color: #FFFFFF;
+        letter-spacing: -3px;
+    }
+
+    span {
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px !important;
+        line-height: 46px;
+        color: #171716;
+    }
+    .paraa{
+        font-family: 'Sora';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 135%;
+text-align: center;
+color: #EBF243;
+    }
+
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+}
