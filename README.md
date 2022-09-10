@@ -1,2 +1,0 @@
-# FunFury-Project
-Intership project
