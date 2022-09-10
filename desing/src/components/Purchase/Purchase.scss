@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&display=swap");
+
+.clm1 {
+  border-right: 1px solid rgb(250, 240, 240);
+  height: 100%;
+}
+.overAll {
+  background: url(../../assets/images/screen4.png) no-repeat !important;
+}
+body {
+  background-size: cover;
+  background-position: bottom center;
+  // position: absolute;
+  min-height: 100vh;
+}
+// .hero-banner{
+//     position: relative;
+//     display: none;
+// }
+// .hero-wrapper {
+//     // display: none !important;
+//     background: none;
+// }
+// .hero-image{
+//     display: none;
+// }
+
+.bg {
+  background-color: transparent;
+  cursor: pointer;
+  // position: absolute;
+  // top: 80px;
+}
+.demo h4 {
+  color: white;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.mr {
+  margin: 70px;
+}
+
+.h {
+  height: 510px;
+}
+
+.colr {
+  width: 200px;
+  background-color: white;
+}
+.pic2 {
+  position: absolute;
+  top: 26rem;
+}
+
+.pic1 {
+  position: absolute;
+  top: 21rem;
+  left: 11rem;
+}
+
+.demo {
+  background-color: #5502ae;
+  border: 10px solid #7601f4;
+  border-radius: 12px;
+  width: 390px;
+  height: 327px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15rem;
+  margin-left: 5rem;
+  padding: 3rem;
+  padding-left: 3rem;
+  text-align: center;
+}
+
+.pic3 {
+  margin-left: 23rem;
+  margin-top: 20rem;
+}
+
+@media (min-width: 300px) and (max-width: 750px) {
+  .center {
+    text-align: center;
+    transform: translateY(-10px);
+  }
+}
+@media (min-width: 750px) and(max-width:1250px) {
+  .po {
+    margin-top: 110px;
+  }
+  .center {
+    margin-top: 110px;
+  }
+}
+
+.bo {
+  border-bottom: none !important;
+}
+.text-white {
+  font-family: "acumin_pro_condensed_blackRg";
+  font-style: normal;
+  // font-weight: 900;
+  font-size: 38px;
+  line-height: 60px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.bo {
+  border-bottom: 1px solid white;
+}
+.mt {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.bg ul {
+  float: right;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+ul li a {
+  font-size: 20px;
+}
+ul li {
+  font-size: 20px;
+}
+.py-1 {
+  padding-top: 0px !important;
+}
+
+.btnc {
+  background-color: #a93bff;
+  border-radius: 12px;
+  color: white;
+  font-family: "Sora";
+  padding: 8px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+.btnc:hover {
+  background-color: rgb(109, 15, 101);
+}
+.text {
+  padding-left: 5rem;
+}
+
+.btnC {
+  text-decoration: none;
+  background-color: #5500b1;
+  padding: 10px 80px 10px 80px;
+  margin-top: 12px;
+  margin-left: 15px;
+  border-radius: 12px;
+}
+.btnC:hover {
+  background-color: rgb(109, 15, 101);
+}
+.bgW {
+  background-color: #7601f4;
+  margin-left: 30px;
+}
+
+.col2 {
+  width: 100%;
+}
+.right {
+  float: inline-end;
+}
+.display-5 b {
+  font-family: "acumin_pro_condensed_blackRg";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+
+.acuminfont {
+  font-family: "acumin_pro_condensed_blackRg";
+}
+
+.tp {
+  background-image: url(../../assets/images/bg-pttrn.png);
+  background-size: cover;
+}
+.bor {
+  border-radius: 12px;
+  background-color: #7601f4;
+  border: 2px solid;
+  border-image: linear-gradient(linear, #a93bff, #a93bff00) 10;
+}
+.textC {
+  text-align: center;
+}
+.width-mx {
+  width: 16rem;
+}
+.hl {
+  height: 200px;
+}
+.hlC {
+  height: 160px;
+}
+.hlC2 {
+  height: 180px;
+}
+.yl {
+  background-image: url(../../assets/images/priceL.png);
+  background-size: contain;
+}
+.ylcolor {
+  /* color: #5500B1; */
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 600;
+  /* font-size: 13px;
+line-height: 14px; */
+  text-align: center;
+  text-transform: uppercase;
+
+  /* FANFURY 01 */
+
+  color: #a93bff;
+}
+.yellow {
+  color: #ebf243;
+}
+.ps {
+  font-size: 23px;
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.pkB {
+  width: 250px;
+  border: 1px solid white;
+  padding: 10px;
+  margin-left: 15px;
+  border-radius: 12px;
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  /* letter-spacing: 0.1em; */
+}
+
+.pkB:hover {
+  background-color: #5500b1;
+  color: yellow;
+}
+table th {
+  border-left: 1px solid #a93bff;
+}
+table td {
+  text-align: center;
+  border-left: 1px solid #a93bff;
+}
+.graphic {
+  background-image: url(../../assets/images/graphic.png);
+  background-size: calc();
+}
+.btn-buy {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 36px;
+  background: #a93bff;
+  border-radius: 18px;
+  color: white;
+  margin-bottom: 9rem;
+  width: 25rem;
+  position: relative;
+  transform: translate(-50px, -50px);
+  left: 44%;
+}
+tr {
+  border-color: #a93bff !important;
+}
