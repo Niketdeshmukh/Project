@@ -1,6 +1,11 @@
+body{
+   
+}
 .container__main {
     width: 100%;
-    min-height: 100vh;
+    background: url(../../assets/images/screen4.png), url(../../assets/Screen3/fury_design.svg) no-repeat center;
+    background-size: cover;
+    // min-height: 100vh;
 }
 
 .content__main {
@@ -31,10 +36,118 @@
 
             color: #FFFFFF;
         }
-        
-    }img{
-            margin-top: 64px;
-            width: 23rem;
-            height: 26rem;
+
+    }
+
+    img {
+        margin-top: 64px;
+        width: 23rem;
+        height: 26rem;
+    }
+}
+
+.container__box {
+    display: flex;
+    flex-direction: column;
+    margin: 22px;
+    align-items: center;
+    justify-content: center;
+
+    h3 {
+        display: flex;
+        margin: 0 54rem 23px 0;
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 38px;
+        line-height: 46px;
+        color: #FFFFFF;
+        letter-spacing: -3px;
+    }
+
+    span {
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 46px;
+        color: #EBF243;
+    }
+
+    .content__box {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 0fr 288px 1fr;
+        align-items: center;
+        margin-bottom: 50px;
+        width: 80%;
+        height: 15.6rem;
+        box-sizing: border-box;
+        background: #10005C;
+        box-shadow: 0px 4px 50px rgba(169, 59, 255, 0.8);
+        border-radius: 12px;
+
+        .elipse{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+width: 36px;
+height: 36px;
+left: 1044px;
+top: -236px;
+border-radius: 50%;
+background: #241181;
         }
+        img {
+            width: 15rem;
+            height: 15rem;
+        }
+
+        .content__a {
+            margin-top: -22px;
+
+            h5 {
+                font-family: 'Sora';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 152%;
+                // text-align: center;
+                letter-spacing: -0.02em;
+
+                color: #828282;
+            }
+
+            button {
+                width: 222px;
+                height: 48px;
+                background:
+                    rgba(36, 17, 129, 1);
+                border-radius: 12px;
+                border: none;
+                font-family: 'Sora';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 13px;
+                line-height: 16px;
+                text-align: center;
+                letter-spacing: 0.1em;
+                color: #64579F;
+
+            }
+
+            p {
+                font-family: 'Sora';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 33px;
+                line-height: 120%;
+                margin-right: 54px;
+                letter-spacing: -0.02em;
+                color: #FFFFFF;
+            }
+        }
+    }
+
 }

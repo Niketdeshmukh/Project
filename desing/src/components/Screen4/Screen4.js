@@ -2,13 +2,17 @@ import React from "react";
 import Header from "../Layout/Header";
 import Footer from "../Footer/Footer";
 import image1 from "../../assets/Screen4/first_img.svg";
-import image2 from "../../assets/Screen4/image_four.svg"
+import image3 from "../../assets/Screen3/box1_container2.svg";
+import image4 from "../../assets/Screen3/box2_container2.svg";
+import image5 from "../../assets/Screen3/image__forth.svg";
+import image2 from "../../assets/Screen4/image_four.svg";
 import "./Screen4.scss";
 const Screen4 = () => {
   return (
     <>
       <div className="container__main">
         <Header />
+        
         <div className="content__main">
           <div className="content__first">
             <h2>Fanfury’s $FURY Kits</h2>
@@ -17,10 +21,92 @@ const Screen4 = () => {
           <img src={image1} alt="" srcset="" />
         </div>
         <div className="container__box">
-        <h3> <span>Basic</span>  $FURY Kit</h3>
-        <div className="content__box">
-        <img src={image2} alt="" srcset="" />
+         
+    <h3>
+            {" "}
+            <span>Basic</span> &nbsp; $FURY Kit
+          </h3>
+          <div className="content__box">
+            <img src={image2} alt="" srcset="" />
+            <div className="content__a">
+              <h5>Basic $FURY Kit </h5>
+              <p>$100</p>
+              <button>Claim Now</button>
+            </div>
+            <p>
+              Claim the Basic Kit and avail the Membership Bonus. Please click
+              the “question mark” icon for details on the exclusive bonus
+              available on this package.
+            </p>
+            <div className="elipse">
+                ?
+            </div>
+          </div>
         </div>
+        <div className="container__box">
+          <h3>
+            {" "}
+            <span>Pro</span>&nbsp; $FURY Kit
+          </h3>
+          <div className="content__box">
+            <img src={image4} alt="" srcset="" />
+            <div className="content__a">
+              <h5>Pro $FURY Kit </h5>
+              <p>$500</p>
+              <button>Claim Now</button>
+            </div>
+            <p>
+              Claim the Pro Kit at 5% discount. Please click the “question mark”
+              icon for details on the exclusive bonus available on this package
+            </p>
+            <div className="elipse">
+                ?
+            </div>
+          </div>
+        </div>
+        <div className="container__box">
+          <h3>
+            {" "}
+            <span>Elite</span>&nbsp; $FURY Kit
+          </h3>
+          <div className="content__box">
+            <img src={image3} alt="" srcset="" />
+            <div className="content__a">
+              <h5>Elite $FURY Kit </h5>
+              <p>$1000</p>
+              <button>Claim Now</button>
+            </div>
+            <p>
+              Claim the Elite Kit at 10% discount. Please click the “question
+              mark” icon for details on the exclusive bonus available on this
+              package.{" "}
+            </p>
+            <div className="elipse">
+                ?
+            </div>
+          </div>
+        </div>
+        <div className="container__box">
+          <h3 style={{ margin: "0 47rem 23px 0" }}>
+            {" "}
+            <span>Legendary </span> &nbsp; $FURY Kit
+          </h3>
+          <div className="content__box" style={{marginBottom:"24rem"}}>
+            <img src={image5} alt="" srcset="" />
+            <div className="content__a">
+              <h5>Legendary $FURY Kit </h5>
+              <p>$2500</p>
+              <button>Claim Now</button>
+            </div>
+            <p>
+              Claim the Legendary Kit at 12% discount. Please click the
+              “question mark” icon for details on the exclusive bonus available
+              on this package.{" "}
+            </p>
+            <div className="elipse">
+                ?
+            </div>
+          </div>
         </div>
       </div>
 
