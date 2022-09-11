@@ -32,7 +32,7 @@ const Screen3 = () => {
           </div>
         </div>
         <div className="container__third">
-          <div className="content__main">
+          <div className="content__main" >
             <div className="content__text">
               <h3>ABOUT FANFURY</h3>
               <p>
@@ -51,7 +51,7 @@ const Screen3 = () => {
               </p>
               <button className="readMore">Read More</button>
             </div>
-            <img src={image3} alt="" srcset="" />
+            <img src={image3} alt=""  className="image_pos" srcset="" />
           </div>
         </div>
         <div className="container__forth">

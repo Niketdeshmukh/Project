@@ -3,21 +3,29 @@
     height: 50vh;
     background: #0B013F;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-top: -15.5rem;
     bottom: -37px;
-
+    p{
+        width: 17rem;
+        margin-left: 24px;
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        color: #828282;
+    }
     img{
         width: 12rem;
-        margin: 0px 83px 147px 0px
+        margin: 46px 83px 147px 0px;
+        position: absolute;
+        right: 0px;
     }
 }
 
 .social__content {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr minmax(0, 250px) 3fr;
-    padding: 88px;
+  
+margin: 4rem;
 
     .link__content ul h5,
     .support__content ul h5,
@@ -31,15 +39,7 @@
         line-height: 135%;
         color: #FFFFFF;
     }
-p{
-    width: 17rem;
-    margin-left: 24px;
-    font-family: 'Sora';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    color: #828282;
-}
+
     .link__content ul li,
     .support__content ul li,
     .community__content ul li {

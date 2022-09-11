@@ -5,7 +5,10 @@ const Footer = () => {
   return (
     <>
       <div className="footer__main">
-        <div className="social__content">
+        <div className="social__content" style={{
+    display: "flex",
+    flexDirection: "row"
+}}>
           <div className="link__content">
             <ul>
               <h5>Link</h5>
@@ -33,8 +36,8 @@ const Footer = () => {
               <li className="items">Instagram</li>
             </ul>
           </div>
-          <p>Copyright © Fanfury. 2022 All rights Reserved.</p>
-        </div>
+          
+        </div><p>Copyright © Fanfury. 2022 All rights Reserved.</p>
         <img src={image1} alt="" srcset="" />
       </div>
     </>

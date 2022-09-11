@@ -217,7 +217,71 @@ const Screen4 = () => {
               mark” icon for details on the exclusive bonus available on this
               package.{" "}
             </p>
-            <div className="elipse">?</div>
+            <div className="elipse">
+              <button onClick={toggleModal} className="btn-modal">
+                ?
+              </button>
+            </div>
+            {modal && (
+              <div className="moodal">
+                <div onClick={toggleModal} className="overlay"></div>
+                <div className="modal-content">
+                  <h4>
+                    <span style={{ fontSize: "31px" }}>Basic</span>&nbsp; $FURY
+                    Kit
+                  </h4>
+                  <p>
+                    Get 2x $FURY as part of the Membership Bonus. Claim 500
+                    $FURY tokens at just $200!
+                  </p>
+                  <hr
+                    style={{
+                      width: "404px",
+                      height: "0px",
+                      border: "1px solid #EBF243",
+                    }}
+                  />
+                  <p
+                    style={{
+                      color: " #EBF243",
+                      fontFamily: "Sora",
+                      fontStyle: "normal",
+                      fontWeight: "600",
+                      fontSize: "18px",
+                      lineHeight: "135%",
+                      alignItems: "center",
+                    }}
+                  >
+                    {" "}
+                    Bonus deals included in this package:
+                  </p>
+                  <hr
+                    style={{
+                      width: "404px",
+                      marginTop: "-4px",
+                      height: "0px",
+                      border: "1px solid #EBF243",
+                    }}
+                  />
+                  <ul>
+                    <li>Membership Bonus</li>
+                    <li>Early-Bird Bonus</li>
+                  </ul>
+                  <button
+                    style={{
+                      border: "none",
+                      borderRadius: "50%",
+                      width: "33px",
+                      backgroundColor: "white",
+                    }}
+                    className="close-modal"
+                    onClick={toggleModal}
+                  >
+                    X
+                  </button>
+                </div>
+              </div>
+            )}
           </div>
         </div>
         <div className="container__box">
@@ -237,7 +301,71 @@ const Screen4 = () => {
               “question mark” icon for details on the exclusive bonus available
               on this package.{" "}
             </p>
-            <div className="elipse">?</div>
+            <div className="elipse">
+              <button onClick={toggleModal} className="btn-modal">
+                ?
+              </button>
+            </div>
+            {modal && (
+              <div className="moodal">
+                <div onClick={toggleModal} className="overlay"></div>
+                <div className="modal-content">
+                  <h4>
+                    <span style={{ fontSize: "31px" }}>Basic</span>&nbsp; $FURY
+                    Kit
+                  </h4>
+                  <p>
+                    Get 2x $FURY as part of the Membership Bonus. Claim 500
+                    $FURY tokens at just $200!
+                  </p>
+                  <hr
+                    style={{
+                      width: "404px",
+                      height: "0px",
+                      border: "1px solid #EBF243",
+                    }}
+                  />
+                  <p
+                    style={{
+                      color: " #EBF243",
+                      fontFamily: "Sora",
+                      fontStyle: "normal",
+                      fontWeight: "600",
+                      fontSize: "18px",
+                      lineHeight: "135%",
+                      alignItems: "center",
+                    }}
+                  >
+                    {" "}
+                    Bonus deals included in this package:
+                  </p>
+                  <hr
+                    style={{
+                      width: "404px",
+                      marginTop: "-4px",
+                      height: "0px",
+                      border: "1px solid #EBF243",
+                    }}
+                  />
+                  <ul>
+                    <li>Membership Bonus</li>
+                    <li>Early-Bird Bonus</li>
+                  </ul>
+                  <button
+                    style={{
+                      border: "none",
+                      borderRadius: "50%",
+                      width: "33px",
+                      backgroundColor: "white",
+                    }}
+                    className="close-modal"
+                    onClick={toggleModal}
+                  >
+                    X
+                  </button>
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </div>
