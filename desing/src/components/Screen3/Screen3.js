@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Header from "../Layout/Header";
 import "../Screen3/Screen3.scss";
 import image1 from "../../assets/Screen3/box1_container2.svg";
@@ -14,7 +15,7 @@ const Screen3 = () => {
         <div className="container__first">
           <div className="container__content">
             <h2>FURY KITS</h2>
-            <button className="claim__now">Claim Now</button>
+            <button className="claim__now">  <Link to='/screen4' style={{textDecoration:"none",color:"#ffffff"}}> Claim Now</Link></button>
           </div>
         </div>
         <div className="container__second">

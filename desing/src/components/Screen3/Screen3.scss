@@ -113,11 +113,11 @@ body {
 
     .boxes {
         display: flex;
-        flex-direction: row;
+        flex-direction: row !important;
         align-items: center !important;
         justify-content: center;
         margin: auto;
-        flex-wrap: wrap;
+        // flex-wrap: wrap;
     }
 }
 .container__third {
@@ -294,7 +294,9 @@ color: #F2F2F2;
     .footer__main img{
         display: none;
     }
-    
+    .container__second .boxes{
+        flex-wrap: wrap !important;
+    }
 }
 @media screen and (max-width:526px){
     .container__third .content__text{

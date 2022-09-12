@@ -38,7 +38,7 @@ const FanClub = () => {
         <div className="con__btn">
           {" "}
           <Link
-            to="/purchase"
+            to="/screen3"
             className="esf"
             style={{ textDecoration: "none", color: "white" }}
           >

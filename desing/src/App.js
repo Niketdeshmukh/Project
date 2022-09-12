@@ -17,8 +17,7 @@ function App() {
         <Route path="/" element={<HomePage />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/connect-wallet" element={<HeroConnectWallet />}></Route>
-        <Route path="/screen3" element={<Screen3 />}></Route>
-        <Route path="/screen4" element={<Screen4 />}></Route>
+       
         <Route
           path="/payment-integration"
           element={<PaymentIntegration />}
@@ -27,7 +26,10 @@ function App() {
       </Routes>
 
       <Routes>
-        <Route path="/purchase" element={<Purchase />}></Route>
+        {/* <Route path="/purchase" element={<Purchase />}> */}
+        <Route path="/screen3" element={<Screen3 />}></Route>
+        <Route path="/screen4" element={<Screen4 />}></Route>
+        {/* </Route> */}
         <Route
           path="/payment-integration-panel"
           element={<PayIntPanel />}
